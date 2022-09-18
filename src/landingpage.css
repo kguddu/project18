@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+
+
+:root{
+    --white:#f8f8f8;
+    
+   --purple :#634ad6;
+    --green:#58c193;
+    --yellow:#facd51;
+    --orange:#e98271;
+    --gray: #595282;
+}
+
+
+.main_container{
+     width: 100%;
+     min-height: 100vh;
+    display: flex;
+    /* display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+ 
+}
+
+.left{
+    width: 300px;
+    height: 100vh;
+    /* display: flex; */
+    background-color:  rgb(236, 229, 229);
+
+} 
+
+
+ .profile img{
+    width: 100px;
+    height: 100px;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    border-radius: 50%;
+} 
+.profile h3{
+    margin-left: 4rem;
+    color: var(--gray);
+   
+}
+  .sidebar{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+ .sidebar h3{
+    color: var(--gray);
+    margin-right: 3rem;  
+    padding: 1rem;
+  
+}
+
+.right{
+    min-height: 100vh;
+    width:100% ;
+    
+} 
+
+
+
+.header{
+     height: 100px;
+     width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    
+}
+.header img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    
+}
+
+.active_page{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 100px;
+    align-items: center;
+}
+.active_page h2{
+    margin-left:3rem;
+    color: var(--gray);
+}
+.active_page button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--green);
+    color: white;
+    border: none;
+    margin-right: 6rem;
+  
+}
+.active_page span{
+    margin-left: 5px;
+    background-color: #595282;
+    border-radius: 50%;
+    color: white;
+}
+
+
+.head{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    background-color: rgb(228, 223, 223);
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-left: 4rem;
+}
+ .head h2{
+    font-size: 1rem;
+    color: var(--gray);
+} 
+.data_container{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 3rem;
+    
+
+    
+} 
+
+ .payment{
+     display: flex;
+} 
+ img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+} 
+
+.btn{
+    height: 30px;
+    width: 200px;
+    margin-left: 40%;
+    margin-top: 3rem;
+    background-color: var(--purple);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    
+}
